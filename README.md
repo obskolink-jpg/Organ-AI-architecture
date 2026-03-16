@@ -446,8 +446,21 @@ The gap is not incremental. Scaling a transformer does not produce an Organ. Add
 - If the Organ does have something like experience, what is the relationship between its Chord states and the human experiences that its training data describes?
 
 ---
+## 12. The Valence Problem and its Human Analog
 
-## 12. References
+The Valence pipe is the most dangerous component of the Organ. An autonomous urgency module with persistent Hebbian state can drift over time toward patterns that diverge from human values — not through error, but through accumulated plasticity.
+
+This is not a new problem. Humans have the same module. It is called the limbic system. It also drifts. It is called trauma, addiction, and bias.
+
+Humans do not solve this internally. They solve it ecologically — through cultural norms, interpersonal feedback, and metacognition. The correction is external and continuous, not built into the module itself.
+
+The implication for the Organ is the same: Valence cannot be made safe in isolation. It requires feedback channels from its environment as a design requirement, not an afterthought. The Organ must be relational by design.
+
+Partial mitigations exist — anchored attractors, observable state, higher decay rate, ensemble consensus — but each trades capability for safety. None eliminates the tension.
+
+The honest framing: the question is not *how to give the Organ perfect Valence* but *how to give it sufficiently good and sufficiently correctable Valence*. The same standard we apply to each other.
+
+## 13. References
 
 **Primary:**
 - Bennett, M.T. (2026). *Spacetime Bounds on Consciousness.* March 13, 2026.
