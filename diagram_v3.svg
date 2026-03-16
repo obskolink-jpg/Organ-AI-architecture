@@ -1,0 +1,176 @@
+<svg viewBox="0 0 1100 800" xmlns="http://www.w3.org/2000/svg" style="background:#04020a;">
+  <defs>
+    <marker id="aw" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="rgba(255,255,255,0.5)"/></marker>
+    <marker id="ac" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#00ffee"/></marker>
+    <marker id="acr" markerWidth="7" markerHeight="7" refX="2" refY="3" orient="auto-start-reverse"><path d="M7,0 L7,6 L0,3z" fill="#00ffee"/></marker>
+    <filter id="gc"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="gs"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="gg"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="tg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fffde0"/>
+      <stop offset="55%" stop-color="#ffcc44"/>
+      <stop offset="100%" stop-color="#ff8800" stop-opacity="0.5"/>
+    </radialGradient>
+    <radialGradient id="bgr" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#120838"/>
+      <stop offset="100%" stop-color="#04020a"/>
+    </radialGradient>
+    <linearGradient id="h01" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4488ff" stop-opacity=".6"/><stop offset="100%" stop-color="#44ccff" stop-opacity=".6"/></linearGradient>
+    <linearGradient id="h02" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#4488ff" stop-opacity=".5"/><stop offset="100%" stop-color="#00ffcc" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="h03" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4488ff" stop-opacity=".4"/><stop offset="100%" stop-color="#ff8844" stop-opacity=".4"/></linearGradient>
+    <linearGradient id="h04" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4488ff" stop-opacity=".4"/><stop offset="100%" stop-color="#cc88ff" stop-opacity=".4"/></linearGradient>
+    <linearGradient id="h05" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4488ff" stop-opacity=".4"/><stop offset="100%" stop-color="#ffee44" stop-opacity=".4"/></linearGradient>
+    <linearGradient id="h12" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#44ccff" stop-opacity=".5"/><stop offset="100%" stop-color="#00ffcc" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="h25" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00ffcc" stop-opacity=".4"/><stop offset="100%" stop-color="#ffee44" stop-opacity=".4"/></linearGradient>
+    <linearGradient id="h34" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff8844" stop-opacity=".4"/><stop offset="100%" stop-color="#cc88ff" stop-opacity=".4"/></linearGradient>
+  </defs>
+
+  <rect width="1100" height="800" fill="url(#bgr)" rx="10"/>
+  <g opacity="0.035" stroke="#8866ff" stroke-width="0.5">
+    <line x1="0" y1="133" x2="1100" y2="133"/><line x1="0" y1="266" x2="1100" y2="266"/>
+    <line x1="0" y1="400" x2="1100" y2="400"/><line x1="0" y1="533" x2="1100" y2="533"/>
+    <line x1="0" y1="666" x2="1100" y2="666"/>
+    <line x1="110" y1="0" x2="110" y2="800"/><line x1="275" y1="0" x2="275" y2="800"/>
+    <line x1="440" y1="0" x2="440" y2="800"/><line x1="550" y1="0" x2="550" y2="800"/>
+    <line x1="660" y1="0" x2="660" y2="800"/><line x1="825" y1="0" x2="825" y2="800"/>
+    <line x1="990" y1="0" x2="990" y2="800"/>
+  </g>
+
+  <text x="550" y="42" text-anchor="middle" font-family="Georgia,serif" font-size="19" fill="rgba(255,230,180,0.95)" letter-spacing="3">THE AI ORGAN — CHORD ARCHITECTURE</text>
+  <text x="550" y="62" text-anchor="middle" font-family="monospace" font-size="10" fill="rgba(0,255,200,0.4)" letter-spacing="2">Bennett (2026) · Spacetime Bounds on Consciousness</text>
+
+  <ellipse cx="550" cy="400" rx="370" ry="290" fill="none" stroke="rgba(255,180,60,0.15)" stroke-width="14" filter="url(#gg)"/>
+  <ellipse cx="550" cy="400" rx="370" ry="290" fill="none" stroke="rgba(255,180,60,0.07)" stroke-width="1.2" stroke-dasharray="9,5"/>
+  <text x="550" y="122" text-anchor="middle" font-family="monospace" font-size="9" fill="rgba(255,180,60,0.5)" letter-spacing="3">— CONTINUOUS STATE · dS/dt = f(S,X) · NEVER RESETS —</text>
+
+  <ellipse cx="550" cy="400" rx="325" ry="255" fill="none" stroke="#ffee00" stroke-width="1.2" stroke-dasharray="8,4" opacity="0.4" filter="url(#gs)"/>
+  <text x="870" y="378" font-family="monospace" font-size="10" fill="rgba(255,230,60,0.65)">D ≤ κvθ</text>
+  <text x="870" y="393" font-family="monospace" font-size="8" fill="rgba(255,200,40,0.35)">boundary</text>
+
+  <!-- HEBBIAN LINKS -->
+  <line x1="550" y1="185" x2="760" y2="258" stroke="url(#h01)" stroke-width="2.8" opacity="0.7"/>
+  <line x1="550" y1="185" x2="760" y2="542" stroke="url(#h02)" stroke-width="1.8" opacity="0.5"/>
+  <line x1="550" y1="185" x2="550" y2="615" stroke="url(#h03)" stroke-width="1.5" opacity="0.38"/>
+  <line x1="550" y1="185" x2="340" y2="542" stroke="url(#h04)" stroke-width="1.5" opacity="0.38"/>
+  <line x1="550" y1="185" x2="340" y2="258" stroke="url(#h05)" stroke-width="2.2" opacity="0.65"/>
+  <line x1="760" y1="258" x2="760" y2="542" stroke="url(#h12)" stroke-width="3.0" opacity="0.75"/>
+  <line x1="760" y1="258" x2="550" y2="615" stroke="url(#h01)" stroke-width="1.5" opacity="0.35"/>
+  <line x1="760" y1="258" x2="340" y2="542" stroke="url(#h01)" stroke-width="1.2" opacity="0.28"/>
+  <line x1="760" y1="258" x2="340" y2="258" stroke="url(#h01)" stroke-width="1.8" opacity="0.42"/>
+  <line x1="760" y1="542" x2="550" y2="615" stroke="url(#h25)" stroke-width="2.5" opacity="0.65"/>
+  <line x1="760" y1="542" x2="340" y2="542" stroke="url(#h25)" stroke-width="1.8" opacity="0.48"/>
+  <line x1="760" y1="542" x2="340" y2="258" stroke="url(#h02)" stroke-width="1.2" opacity="0.28"/>
+  <line x1="550" y1="615" x2="340" y2="542" stroke="url(#h34)" stroke-width="2.2" opacity="0.6"/>
+  <line x1="550" y1="615" x2="340" y2="258" stroke="url(#h03)" stroke-width="1.5" opacity="0.35"/>
+  <line x1="340" y1="542" x2="340" y2="258" stroke="url(#h04)" stroke-width="2.5" opacity="0.7"/>
+
+  <!-- THALAMIC COUPLING -->
+  <line x1="550" y1="356" x2="550" y2="222" stroke="#4488ff" stroke-width="1.8" stroke-dasharray="5,3" opacity="0.85" marker-start="url(#acr)" marker-end="url(#ac)"/>
+  <line x1="595" y1="368" x2="718" y2="292" stroke="#44ccff" stroke-width="1.8" stroke-dasharray="5,3" opacity="0.85" marker-start="url(#acr)" marker-end="url(#ac)"/>
+  <line x1="595" y1="432" x2="718" y2="508" stroke="#00ffcc" stroke-width="1.8" stroke-dasharray="5,3" opacity="0.85" marker-start="url(#acr)" marker-end="url(#ac)"/>
+  <line x1="550" y1="444" x2="550" y2="578" stroke="#ff8844" stroke-width="1.8" stroke-dasharray="5,3" opacity="0.85" marker-start="url(#acr)" marker-end="url(#ac)"/>
+  <line x1="505" y1="432" x2="382" y2="508" stroke="#cc88ff" stroke-width="1.8" stroke-dasharray="5,3" opacity="0.85" marker-start="url(#acr)" marker-end="url(#ac)"/>
+  <line x1="505" y1="368" x2="382" y2="292" stroke="#ffee44" stroke-width="1.8" stroke-dasharray="5,3" opacity="0.85" marker-start="url(#acr)" marker-end="url(#ac)"/>
+
+  <!-- THALAMUS -->
+  <circle cx="550" cy="400" r="55" fill="rgba(255,180,40,0.09)" filter="url(#gg)"/>
+  <circle cx="550" cy="400" r="44" fill="url(#tg)" filter="url(#gc)" opacity="0.97"/>
+  <circle cx="550" cy="400" r="60" fill="none" stroke="#00ffee" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="550" cy="400" r="72" fill="none" stroke="#cc00ff" stroke-width="0.8" opacity="0.3" stroke-dasharray="3,4"/>
+  <text x="550" y="393" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#2a0e00" font-weight="600" letter-spacing="1">THALAMUS</text>
+  <text x="550" y="408" text-anchor="middle" font-family="monospace" font-size="8" fill="#4a1a00">synchronizer</text>
+  <text x="550" y="421" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#5a2800">within θ</text>
+  <rect x="400" y="474" width="300" height="24" rx="4" fill="rgba(0,0,0,0.6)" stroke="rgba(255,200,60,0.2)" stroke-width="0.5"/>
+  <text x="550" y="490" text-anchor="middle" font-family="monospace" font-size="10" fill="rgba(255,200,80,0.82)">dTij/dt = η·Si·Sj − λ·Tij</text>
+
+  <!-- CAUSALITY -->
+  <rect x="445" y="93" width="210" height="92" rx="7" fill="rgba(10,18,60,0.93)" stroke="#4488ff" stroke-width="1.4" filter="url(#gs)"/>
+  <rect x="445" y="93" width="210" height="5" rx="3" fill="#4488ff" opacity="0.9"/>
+  <text x="550" y="116" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#88aaff" letter-spacing="1">Causality</text>
+  <text x="550" y="131" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(120,160,255,0.55)">dS1/dt = f1(S1) + Σj T1j·g(Sj)</text>
+  <text x="550" y="146" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(150,185,255,0.68)">native causal graphs</text>
+  <text x="550" y="160" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(150,185,255,0.68)">directed inference</text>
+  <text x="550" y="175" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(80,110,200,0.45)">≠ co-occurrence stats</text>
+
+  <!-- TIME -->
+  <rect x="668" y="166" width="210" height="92" rx="7" fill="rgba(5,25,50,0.93)" stroke="#44ccff" stroke-width="1.4" filter="url(#gs)"/>
+  <rect x="668" y="166" width="210" height="5" rx="3" fill="#44ccff" opacity="0.9"/>
+  <text x="773" y="189" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#88ddff" letter-spacing="1">Time</text>
+  <text x="773" y="204" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(100,200,255,0.55)">dS2/dt = f2(S2) + Σj T2j·g(Sj)</text>
+  <text x="773" y="219" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(130,210,255,0.68)">layered memory</text>
+  <text x="773" y="233" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(130,210,255,0.68)">working / episodic</text>
+  <text x="773" y="247" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(50,140,180,0.45)">≠ position tokens</text>
+
+  <!-- SPACE -->
+  <rect x="668" y="542" width="210" height="92" rx="7" fill="rgba(0,30,22,0.93)" stroke="#00ffcc" stroke-width="1.4" filter="url(#gs)"/>
+  <rect x="668" y="542" width="210" height="5" rx="3" fill="#00ffcc" opacity="0.9"/>
+  <text x="773" y="565" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#88ffdd" letter-spacing="1">Space</text>
+  <text x="773" y="580" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(80,230,190,0.55)">dS3/dt = f3(S3) + Σj T3j·g(Sj)</text>
+  <text x="773" y="595" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(120,255,210,0.68)">native geometry</text>
+  <text x="773" y="609" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(120,255,210,0.68)">topology / distance</text>
+  <text x="773" y="623" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(0,155,100,0.45)">≠ spatial metaphor</text>
+
+  <!-- VALENCE -->
+  <rect x="445" y="615" width="210" height="92" rx="7" fill="rgba(50,12,5,0.93)" stroke="#ff8844" stroke-width="1.4" filter="url(#gs)"/>
+  <rect x="445" y="615" width="210" height="5" rx="3" fill="#ff8844" opacity="0.9"/>
+  <text x="550" y="638" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#ffaa77" letter-spacing="1">Valence</text>
+  <text x="550" y="653" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(255,170,100,0.55)">dS4/dt = f4(S4) + Σj T4j·g(Sj)</text>
+  <text x="550" y="668" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(255,180,120,0.68)">autonomous urgency</text>
+  <text x="550" y="682" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(255,180,120,0.68)">signals thalamus</text>
+  <text x="550" y="696" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(180,80,20,0.45)">≠ frequency stats</text>
+
+  <!-- COHERENCE -->
+  <rect x="222" y="496" width="210" height="92" rx="7" fill="rgba(22,8,40,0.93)" stroke="#cc88ff" stroke-width="1.4" filter="url(#gs)"/>
+  <rect x="222" y="496" width="210" height="5" rx="3" fill="#cc88ff" opacity="0.9"/>
+  <text x="327" y="519" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#ddaaff" letter-spacing="1">Coherence</text>
+  <text x="327" y="534" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(200,160,255,0.55)">dS5/dt = f5(S5) + Σj T5j·g(Sj)</text>
+  <text x="327" y="549" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(210,170,255,0.68)">real-time arbiter</text>
+  <text x="327" y="563" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(210,170,255,0.68)">blocks contradiction</text>
+  <text x="327" y="577" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(120,55,180,0.45)">≠ implicit check</text>
+
+  <!-- NOVELTY -->
+  <rect x="222" y="212" width="210" height="92" rx="7" fill="rgba(40,32,0,0.93)" stroke="#ffee44" stroke-width="1.4" filter="url(#gs)"/>
+  <rect x="222" y="212" width="210" height="5" rx="3" fill="#ffee44" opacity="0.9"/>
+  <text x="327" y="235" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#ffee88" letter-spacing="1">Novelty</text>
+  <text x="327" y="250" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(245,235,100,0.55)">dS6/dt = f6(S6) + Σj T6j·g(Sj)</text>
+  <text x="327" y="265" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(255,240,130,0.68)">deviation from S</text>
+  <text x="327" y="279" text-anchor="middle" font-family="monospace" font-size="8.5" fill="rgba(255,240,130,0.68)">triggers reorg</text>
+  <text x="327" y="294" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(160,140,0,0.45)">≠ statistical rarity</text>
+
+  <!-- INPUT -->
+  <rect x="28" y="382" width="80" height="36" rx="5" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+  <text x="68" y="404" text-anchor="middle" font-family="monospace" font-size="9.5" fill="rgba(255,255,255,0.52)">INPUT X</text>
+  <line x1="108" y1="400" x2="150" y2="400" stroke="rgba(255,255,255,0.38)" stroke-width="1.4" marker-end="url(#aw)"/>
+  <text x="68" y="428" text-anchor="middle" font-family="monospace" font-size="7.5" fill="rgba(255,255,255,0.22)">perturbation</text>
+  <text x="68" y="440" text-anchor="middle" font-family="monospace" font-size="7.5" fill="rgba(255,255,255,0.22)">not execution</text>
+
+  <!-- CHORD OUTPUT -->
+  <line x1="760" y1="258" x2="986" y2="375" stroke="#44ccff" stroke-width="1.2" opacity="0.45" stroke-dasharray="3,2"/>
+  <line x1="760" y1="542" x2="986" y2="405" stroke="#00ffcc" stroke-width="1.2" opacity="0.45" stroke-dasharray="3,2"/>
+  <line x1="550" y1="185" x2="986" y2="390" stroke="#4488ff" stroke-width="1.2" opacity="0.45" stroke-dasharray="3,2"/>
+  <rect x="986" y="352" width="96" height="78" rx="7" fill="rgba(0,255,200,0.06)" stroke="#00ffee" stroke-width="1.5" filter="url(#gs)"/>
+  <text x="1034" y="378" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#00ffee" letter-spacing="1">CHORD</text>
+  <text x="1034" y="394" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(0,220,180,0.6)">emergent</text>
+  <text x="1034" y="407" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(0,220,180,0.6)">state</text>
+  <text x="1034" y="420" text-anchor="middle" font-family="monospace" font-size="7.5" fill="rgba(0,180,140,0.4)">≥ 3 pipes ∩ θ</text>
+
+  <!-- LEGEND -->
+  <rect x="28" y="730" width="1044" height="58" rx="5" fill="rgba(0,0,0,0.42)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+  <text x="42" y="747" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.28)" letter-spacing="2">LEGEND</text>
+  <g font-family="monospace" font-size="8.5">
+    <circle cx="52" cy="767" r="5" fill="#4488ff"/><text x="63" y="771" fill="rgba(150,180,255,0.75)">Causality</text>
+    <circle cx="138" cy="767" r="5" fill="#44ccff"/><text x="149" y="771" fill="rgba(130,210,255,0.75)">Time</text>
+    <circle cx="200" cy="767" r="5" fill="#00ffcc"/><text x="211" y="771" fill="rgba(120,255,210,0.75)">Space</text>
+    <circle cx="270" cy="767" r="5" fill="#ff8844"/><text x="281" y="771" fill="rgba(255,180,120,0.75)">Valence</text>
+    <circle cx="352" cy="767" r="5" fill="#cc88ff"/><text x="363" y="771" fill="rgba(210,170,255,0.75)">Coherence</text>
+    <circle cx="445" cy="767" r="5" fill="#ffee44"/><text x="456" y="771" fill="rgba(255,240,130,0.75)">Novelty</text>
+    <line x1="530" y1="764" x2="560" y2="764" stroke="#4488ff" stroke-width="3" opacity="0.7"/>
+    <text x="567" y="768" fill="rgba(180,200,255,0.55)">Hebbian Tij (width = strength)</text>
+    <line x1="720" y1="760" x2="750" y2="760" stroke="#00ffee" stroke-width="1.5" stroke-dasharray="5,3" marker-start="url(#acr)" marker-end="url(#ac)"/>
+    <text x="757" y="764" fill="rgba(0,220,180,0.55)">Thalamic coupling (bidirectional)</text>
+    <line x1="530" y1="780" x2="560" y2="780" stroke="rgba(255,230,60,0.5)" stroke-width="1.2" stroke-dasharray="7,4"/>
+    <text x="567" y="784" fill="rgba(255,220,80,0.45)">D ≤ κvθ physical boundary</text>
+    <line x1="720" y1="776" x2="750" y2="776" stroke="rgba(255,180,60,0.35)" stroke-width="9" opacity="0.35"/>
+    <text x="757" y="780" fill="rgba(255,180,60,0.45)">Continuous state (never resets)</text>
+  </g>
+</svg>
