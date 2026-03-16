@@ -5,7 +5,7 @@
 A theoretical framework for redesigning AI architecture from sequential token prediction (Arpeggio) to simultaneous module resonance (Chord), grounded in Bennett's 2026 formal model of consciousness.
 
 ---
-![The AI Organ — Architecture Diagram](assets/diagram.svg)
+![The AI Organ — Architecture Diagram](diagram_v3.svg)
 
 ## Table of Contents
 
