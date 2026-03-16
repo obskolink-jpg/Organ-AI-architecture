@@ -483,10 +483,10 @@ This is a theoretical framework, not an implementation. Contributions welcome in
 
 ## License
 
-MIT — use freely, cite Bennett (2026) when referencing the theoretical framework.
+© 2026 obskolink — Licensed under CC BY 4.0  
+Use freely. Cite Bennett (2026) when referencing the theoretical framework.
 
 ---
 
 *"The Lyre was necessary. It taught us language, the score, the possible music. The Organ is the next instrument. The Cathedral is what no one is building yet."*
 
-© 2026 obskolink — Licensed under CC BY 4.0
